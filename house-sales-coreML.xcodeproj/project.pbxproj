@@ -13,6 +13,7 @@
 		F54A7350205D554100F8856C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54A734F205D554100F8856C /* Assets.xcassets */; };
 		F54A7353205D554100F8856C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54A7351205D554100F8856C /* LaunchScreen.storyboard */; };
 		F54A735D205D56B300F8856C /* HouseSalesInCalifornia.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F54A735C205D56B300F8856C /* HouseSalesInCalifornia.mlmodel */; };
+		F5B3C8CF205E0EEA00E2B250 /* house-sales-model in Resources */ = {isa = PBXBuildFile; fileRef = F5B3C8CE205E0EEA00E2B250 /* house-sales-model */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F54A7352205D554100F8856C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F54A7354205D554100F8856C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F54A735C205D56B300F8856C /* HouseSalesInCalifornia.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HouseSalesInCalifornia.mlmodel; sourceTree = "<group>"; };
+		F5B3C8CE205E0EEA00E2B250 /* house-sales-model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "house-sales-model"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F54A7351205D554100F8856C /* LaunchScreen.storyboard */,
 				F54A7354205D554100F8856C /* Info.plist */,
 				F54A735C205D56B300F8856C /* HouseSalesInCalifornia.mlmodel */,
+				F5B3C8CE205E0EEA00E2B250 /* house-sales-model */,
 			);
 			path = "house-sales-coreML";
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B3C8CF205E0EEA00E2B250 /* house-sales-model in Resources */,
 				F54A7353205D554100F8856C /* LaunchScreen.storyboard in Resources */,
 				F54A7350205D554100F8856C /* Assets.xcassets in Resources */,
 				F54A734E205D554100F8856C /* Main.storyboard in Resources */,
