@@ -12,6 +12,7 @@
 		F54A734E205D554100F8856C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54A734C205D554100F8856C /* Main.storyboard */; };
 		F54A7350205D554100F8856C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54A734F205D554100F8856C /* Assets.xcassets */; };
 		F54A7353205D554100F8856C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54A7351205D554100F8856C /* LaunchScreen.storyboard */; };
+		F54A735D205D56B300F8856C /* HouseSalesInCalifornia.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F54A735C205D56B300F8856C /* HouseSalesInCalifornia.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F54A734F205D554100F8856C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F54A7352205D554100F8856C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F54A7354205D554100F8856C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54A735C205D56B300F8856C /* HouseSalesInCalifornia.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HouseSalesInCalifornia.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F54A734F205D554100F8856C /* Assets.xcassets */,
 				F54A7351205D554100F8856C /* LaunchScreen.storyboard */,
 				F54A7354205D554100F8856C /* Info.plist */,
+				F54A735C205D56B300F8856C /* HouseSalesInCalifornia.mlmodel */,
 			);
 			path = "house-sales-coreML";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				F54A734B205D554100F8856C /* ViewController.swift in Sources */,
 				F54A7349205D554100F8856C /* AppDelegate.swift in Sources */,
+				F54A735D205D56B300F8856C /* HouseSalesInCalifornia.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
